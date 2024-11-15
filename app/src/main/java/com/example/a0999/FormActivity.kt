@@ -43,7 +43,7 @@ class FormActivity : AppCompatActivity() {
         nameInput.setText(sharedPreferences.getString("name", ""))
         ageInput.setText(sharedPreferences.getString("age", ""))
 
-        // Mengatur listener untuk tombol kirim
+        // Mengatur tombol kirim
         submit.setOnClickListener {
             val name = nameInput.text.toString()
             val age = ageInput.text.toString()
